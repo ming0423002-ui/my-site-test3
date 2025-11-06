@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>GRUT 포트폴리오</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== 헤더 (소개 페이지) ===== -->
+  <header class="site-header">
+    <h1 class="site-title">GRUT</h1>
+    <p class="subtitle">Photographer / Visual Storyteller</p>
+    <p class="intro-text">
+      순간의 감정을 사진으로 담아내는 비주얼 스토리텔러 GRUT의 포트폴리오입니다.<br>
+      아래에서 카테고리를 선택해 작품들을 살펴보세요.
+    </p>
+
+    <!-- 태그 버튼 -->
+    <nav class="filter-nav">
+      <button class="filter-btn" data-filter="패션">패션</button>
+      <button class="filter-btn" data-filter="코스플레이">코스플레이</button>
+      <button class="filter-btn" data-filter="길거리">길거리</button>
+      <button class="filter-btn" data-filter="행사">행사</button>
+      <button class="filter-btn" data-filter="뷰티">뷰티</button>
+    </nav>
+  </header>
+
+  <!-- ===== 갤러리 슬라이드 섹션 ===== -->
+  <main id="gallery-section">
+    <!-- 패션 -->
+    <section class="gallery" data-category="패션">
+      <h2>패션</h2>
+      <div class="slide-container">
+        <div class="slides">
+          <img src="image/KSJ_1748.jpg" alt="패션 1">
+          <img src="image/KSJ_1141-Edit.jpg" alt="패션 2">
+        </div>
+      </div>
+    </section>
+
+    <!-- 행사 -->
+    <section class="gallery" data-category="행사">
+      <h2>행사</h2>
+      <div class="slide-container">
+        <div class="slides">
+          <img src="image/DSC01674-2.jpg" alt="행사 1">
+          <img src="image/DSC01748.jpg" alt="행사 2">
+          <img src="image/KSJ_0729.jpg" alt="행사 3">
+        </div>
+      </div>
+    </section>
+
+    <!-- 뷰티 -->
+    <section class="gallery" data-category="뷰티">
+      <h2>뷰티</h2>
+      <div class="slide-container">
+        <div class="slides">
+          <img src="image/beauty_01.jpg" alt="뷰티 1">
+          <img src="image/beauty_02.jpg" alt="뷰티 2">
+          <img src="image/beauty_03.jpg" alt="뷰티 3">
+        </div>
+      </div>
+    </section>
+
+    <!-- 코스플레이 -->
+    <section class="gallery" data-category="코스플레이">
+      <h2>코스플레이</h2>
+      <div class="slide-container">
+        <div class="slides">
+          <img src="image/DSC02744-1.jpg" alt="코스플레이 1">
+          <img src="image/DSC03287.jpg" alt="코스플레이 2">
+          <img src="image/DSC03311.jpg" alt="코스플레이 3">
+          <img src="image/DSC_0231-2.jpg" alt="코스플레이 4">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== 푸터 ===== -->
+  <footer class="site-footer">
+    <p>© 2025 GRUT. All rights reserved.</p>
+    <p>📧 ming042300@gmail.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
